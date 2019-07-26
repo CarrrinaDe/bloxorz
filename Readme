@@ -1,3 +1,7 @@
+Implementation of Bloxorz in Haskell: https://www.miniclip.com/games/bloxorz-classic/en/
+And of the mechanisms for solving levels using iterative deepening depth-first search in the states space.
+
+For running tests:
 Pentru rularea testelor: 
       stack exec ghci BloxorzTest.hs 
  
@@ -16,7 +20,7 @@ Pentru rularea testelor:
 													     , testSolve
 													     , testHeuristic
 													     ]
-
+For playing in command line:
 Pentru a juca în linia de comandă:
       -- setati workingOs la Windows sau Linux
        

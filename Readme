@@ -5,9 +5,10 @@ For running tests:
 Pentru rularea testelor: 
       stack exec ghci BloxorzTest.hs 
  
-      *BloxorzTest.hs> main                      ---> rulează toate testele 
-      *BloxorzTest.hs> runTestPP nume_test       ---> rulează un test anume,
-      												  cu o valoare din:
+      *BloxorzTest.hs> main                      ---> rulează toate testele/ runs all tests
+      *BloxorzTest.hs> runTestPP nume_test       ---> rulează un test anume cu o valoare din:/
+      								runs a specific test from:
+      								
 													     [ testAddObject
 													     , testShowLevels
 													     , testMove
@@ -22,7 +23,7 @@ Pentru rularea testelor:
 													     ]
 For playing in command line:
 Pentru a juca în linia de comandă:
-      -- setati workingOs la Windows sau Linux
+      -- setati workingOs la Windows sau Linux/ set workingOs 
        
       stack exec ghci Interactive.hs 
  
@@ -32,4 +33,4 @@ Pentru a juca în linia de comandă:
       *Interactvie.hs> visualize level0 False    ---> simulează succesiunea de mutări găsită 
                                                       care duce la un nivel câștigat 
                                                       Înlocuiți False cu True, pentru a folosi 
-                                                      euristica. 
+                                                      euristica./ simulates the sequence of moves found to win the game; replace False with True to use heuristic
